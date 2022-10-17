@@ -1,0 +1,129 @@
+.main1{
+    background: rgba(0, 0, 0, 0.6) url("../../assets/bg.jpg") center/cover no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-blend-mode: darken;
+}
+
+
+.heros{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.netlogo{
+    height: 15vh;
+}
+.signin{
+    padding: 8px;
+    background-color: #E50914;
+    color: white;
+    margin-right: 20px;
+    outline: none;
+    border: none;
+
+}
+
+/* mainbody styling */
+.mainbody{
+    text-align: center;
+    margin-top: 50px;
+}
+.unlimited{
+    color: white;
+}
+.watch{
+    font-size: 23px ;
+    font-weight: 500;
+}
+.readyText{
+    font-size: 20px;
+}
+.ready{
+    color: white;
+}
+.emailButton{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.unlimitedText{
+    font-size: 50px;
+    width: 600px;
+    margin:auto;
+    font-weight: 900;
+}
+
+/* input stylying */
+input{
+    padding: 10px;
+    width: 420px;
+    border: none;
+    outline: none;
+}
+.btn1{
+    padding:10px;
+    width: 180px;
+    background-color:  #E50914;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+
+/* SECTION 2 STYLING BEGINS  */
+.section2{
+    background: black;
+    height: 70vh;
+}
+hr{
+    background-color: grey;
+    height: 2vh;
+    outline: none;
+    border: none;
+}
+
+
+
+@media screen and (max-width: 900px){
+    .main1{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+    }
+    .emailButton{
+        display: grid;
+    }
+    input{
+    width: 300px;
+    }
+    .unlimitedText{
+        font-size: 30px;
+        width: 400px;
+    }
+    .Section2{
+        height: 60vh;
+        color: white;
+        line-height: 5px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .enjoyHeader{
+        font-weight: 900;
+        text-align: center;
+        font-size: 30px;
+    }
+    .smartTv{
+        width: 370px;
+        line-height: 21px;
+        text-align: center;
+        margin: auto;
+        font-size: 20px;
+        font-weight: 100;
+    }
+    
+}
